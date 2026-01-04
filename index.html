@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡REYES MAGOS!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fce4ec;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+        }
+        h1 { color: #d81b60; }
+        p { color: #555; font-size: 1.1em; }
+        #qrcode {
+            margin: 20px 0;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #d81b60;
+            padding: 12px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #ad1457; }
+        .btn-alt { background-color: #00796b; }
+        .btn-alt:hover { background-color: #004d40; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>?? ¡Ya vinen los Reyes Magos!</h1>
+    <p id="mensaje">Como has sido buena durante este año, tienes la opción de elegir entre una de las dos opciones. ¡Disfrútalo! y hazle llegar la que más te guste a nuestro paje</p>
+
+<div id="imagenReyesMagos">
+        <img id="img" src="https://img.freepik.com/vector-premium/tres-reyes-magos-oriente-melchor-gaspar-baltasar-reyes-magos_605484-184.jpg" alt="Los Tres Reyes Magos">
+    </div>
+
+
+    <div class="links">
+        <a href="https://puydufouespana.com/espana/es" class="btn">Opción 1</a>
+        <a href="https://www.elmagopop.com/" class="btn btn-alt">Opción 2</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>
